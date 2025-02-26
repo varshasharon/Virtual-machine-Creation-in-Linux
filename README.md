@@ -1,13 +1,15 @@
  # VIRTUAL MACHINE CREATION IN LINUX
 
 ## AIM
-       To Install Virtualbox / VMware Workstation and execute basic Linux commands like pwd, mkdir, ls, date, cat, and writing a Bash script to perform arithmetic operations and read a file from the terminal.
+
+To Install Virtualbox / VMware Workstation and execute basic Linux commands like pwd, mkdir, ls, date, cat, and writing a Bash script to perform arithmetic operations and read a file from the terminal.
 
 ## PROBLEM STATEMENT
-    Manually executing basic Linux tasks like file management, navigation, and arithmetic operations can be inefficient. This experiment aims to automate these tasks using Bash scripting, including:
-       - Displaying the current directory, files, and system date.
-       - Reading and displaying file contents.
-       - Performing basic arithmetic operations.
+
+Manually executing basic Linux tasks like file management, navigation, and arithmetic operations can be inefficient. This experiment aims to automate these tasks using Bash scripting, including:
+1. Displaying the current directory, files, and system date.
+2. Reading and displaying file contents.
+3. Performing basic arithmetic operations.
 
 ## REQUIREMENTS
 - Oracle VM VirtualBox MAnager
