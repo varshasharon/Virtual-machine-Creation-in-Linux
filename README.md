@@ -101,8 +101,6 @@ echo "Product: $prod"
 echo "Quotient: $quot"
 echo "Remainder: $rem"
 
-echo "Reading file contents from myfile.txt:"
-cat myfile.txt
 
 ```
 ####  Make the Script Executable
