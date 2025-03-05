@@ -115,10 +115,11 @@ chmod +x myscript.sh
 
 ## OUTPUT
 
-### REG NUMBER: 212222100058
-### NAME: E VARSHA SHARON
+#### REG NUMBER: 212222100058
+#### NAME: E VARSHA SHARON
 
 Configuration of Kali Linux on Oracle Virtual Box :
+
 ![image](https://github.com/user-attachments/assets/c8cefd3c-b7b5-48fa-a2f6-85db776cf094)
 
 Output : 
