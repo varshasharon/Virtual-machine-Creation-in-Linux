@@ -12,7 +12,7 @@ Manually executing basic Linux tasks like file management, navigation, and arith
 3. Performing basic arithmetic operations.
 
 ## REQUIREMENTS
-- Oracle VM VirtualBox MAnager
+- Oracle VM VirtualBox Manager
 - Kali Linux
 - Mousepad (Text Editor)
 - Terminal
@@ -118,7 +118,12 @@ chmod +x myscript.sh
 ### REG NUMBER: 212222100058
 ### NAME: E VARSHA SHARON
 
- ![WhatsApp Image 2025-02-26 at 13 59 24_1c603799](https://github.com/user-attachments/assets/bdb5a52e-f093-4767-9cb1-0c4ffc8fe11f)
+Configuration of Kali Linux on Oracle Virtual Box :
+![image](https://github.com/user-attachments/assets/c8cefd3c-b7b5-48fa-a2f6-85db776cf094)
+
+Output : 
+
+![WhatsApp Image 2025-02-26 at 13 59 24_1c603799](https://github.com/user-attachments/assets/bdb5a52e-f093-4767-9cb1-0c4ffc8fe11f)
 ![WhatsApp Image 2025-02-26 at 13 59 32_6f105c88](https://github.com/user-attachments/assets/73eb14f7-96b1-4685-82de-234802e0831b)
 
 ## RESULT
