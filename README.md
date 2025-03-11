@@ -5,14 +5,13 @@
 
 ## AIM
 
-To Install Virtualbox / VMware Workstation and execute basic Linux commands like pwd, mkdir, ls, date, cat, and writing a Bash script to perform arithmetic operations and read a file from the terminal.
+To Install Virtualbox / VMware Workstation and configure Kali Linux on the VMware and execute basic Linux commands.
 
 ## PROBLEM STATEMENT
 
-Manually executing basic Linux tasks like file management, navigation, and arithmetic operations can be inefficient. This experiment aims to automate these tasks using Bash scripting, including:
-1. Displaying the current directory, files, and system date.
-2. Reading and displaying file contents.
-3. Performing basic arithmetic operations.
+Create a Virtual Machine usint the Oracle VMware Workstation to install and configure the Kali Linux OS on the Virtualbox.
+
+
 
 ## REQUIREMENTS
 - Oracle VM VirtualBox Manager
@@ -22,17 +21,20 @@ Manually executing basic Linux tasks like file management, navigation, and arith
 
 ## ALGORITHM
  ### Step 1: 
- Open the terminal in Kali Linux.
+Download and install VMware Workstation Player or VirtualBox from their official websites.
  ### Step 2:
- Use basic Linux commands to navigate and manage files.
+Download the Kali Linux ISO file from the official Kali Linux website. Ensure you choose the appropriate version based on your system architecture.
  ### Step 3:
- Create a Bash script using Mousepad.
+ Open VMware Workstation Player or VirtualBox and create a new virtual machine.
  ### Step 4:
- Write a script that performs arithmetic operations and reads a file.
+Mount the Kali Linux ISO:
+
+In VMware, select "Use ISO image" in the CD/DVD section.
+In VirtualBox, go to Settings → Storage → Controller IDE → Choose Kali ISO.
  ### Step 5:
- Make the script executable.
+Verify the installation and start using Kali Linux in the virtual environment.
  ### Step 6:
- Run the script and observe the output.
+Execute basic Linux commands on the terminal to check if the Kali Linux OS is properly working on the Virtualbox.
  
 ## COMMANDS
 
@@ -69,53 +71,6 @@ cat myfile.txt
 date
 ```
 
-###  Writing a Bash Script in Mousepad
-#### Open Mousepad
-```
-mousepad myscript.sh &
-```
-
-#### Write the Bash Script
-
-```
-#!/bin/bash 
-
-echo "Current Directory:"
-pwd
-
-echo "Files in this directory:"
-ls
-
-echo "Current Date and Time:"
-date
-
-read -p "Enter first number: " num1
-read -p "Enter second number: " num2
-
-sum=$((num1 + num2))
-diff=$((num1 - num2))
-prod=$((num1 * num2))
-quot=$((num1 / num2))
-rem=$((num1 % num2))
-
-echo "Sum: $sum"
-echo "Difference: $diff"
-echo "Product: $prod"
-echo "Quotient: $quot"
-echo "Remainder: $rem"
-
-
-```
-####  Make the Script Executable
-```
-chmod +x myscript.sh
-```
-
-#### Run the Script
-```
-./myscript.sh
-```
-
 ## OUTPUT
 
 #### REG NUMBER: 212222100058
@@ -129,10 +84,9 @@ Output :
 ![image](https://github.com/user-attachments/assets/cc481926-bcfc-4901-b74d-7f5c76beabd5)
 ![image](https://github.com/user-attachments/assets/ddc08a53-e155-4a5c-afa4-d4a9429696d3)
 ![WhatsApp Image 2025-02-26 at 13 59 24_1c603799](https://github.com/user-attachments/assets/bdb5a52e-f093-4767-9cb1-0c4ffc8fe11f)
-![WhatsApp Image 2025-02-26 at 13 59 32_6f105c88](https://github.com/user-attachments/assets/73eb14f7-96b1-4685-82de-234802e0831b)
 
 ## RESULT
-Thus, this experiment helped in understanding the fundamentals of Linux commands and Bash scripting for automation and system management.
+Thus, this experiment helped in understanding the installation process of Oracle Virtualbox and configuring Kali Linux OS.
 
   
 
